@@ -5,6 +5,7 @@
 - IDEA 2020.3
 - Maven 3.6.3
 - Tomcat 9.0.31
+- MySQL 5.7
 
 **选型：**
 

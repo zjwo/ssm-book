@@ -106,13 +106,13 @@ public class BookController {
     /**
      * 查询书籍
      *
-     * @param selectBookName
+     * @param bookName
      * @param model
      * @return
      */
     @RequestMapping("/selectBook")
-    public String selectBook(String selectBookName, Model model) {
-        Book book = bookService.selectBookName(selectBookName + "%");
+    public String selectBook(String bookName, Model model) {
+        Book book = bookService.selectBookName("%" + bookName);
         List<Book> list = new ArrayList<>();
         list.add(book);
         if (book == null) {

@@ -28,7 +28,7 @@
 
         <form action="${pageContext.request.contextPath}/selectBook" method="post">
             <div class="input-group col-md-3" style="float: right">
-                <input type="text" class="form-control" name="selectBookName" placeholder="请输入要查询的书籍名称">
+                <input type="text" class="form-control" name="bookName" required placeholder="请输入要查询的书籍名称">
                 <span class="input-group-btn">
                         <button class="btn btn-success btn-search">搜索</button>
                     </span>

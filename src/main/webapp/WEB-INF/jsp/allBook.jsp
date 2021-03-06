@@ -68,7 +68,7 @@
         <div class="col-md-12 column">
             <div class=" text-right">
                 <h3>
-                    <small>${error}</small>
+                    <small style="color: red">${error}</small>
                 </h3>
             </div>
         </div>

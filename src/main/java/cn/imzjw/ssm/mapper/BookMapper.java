@@ -1,6 +1,7 @@
 package cn.imzjw.ssm.mapper;
 
 import cn.imzjw.ssm.entity.Book;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -55,5 +56,5 @@ public interface BookMapper {
 	 * @param bookName
 	 * @return
 	 */
-	Book selectBookName(String bookName);
+	Book selectBookName(@Param("bookName") String bookName);
 }

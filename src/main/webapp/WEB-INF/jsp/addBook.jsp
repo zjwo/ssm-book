@@ -38,6 +38,16 @@
         &nbsp;
         <button type="submit" class="btn btn-info">点击添加</button>
     </form>
+
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <div class=" text-right">
+                <h4>
+                    <a href="/listBook">返回首頁</a>
+                </h4>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
 </html>
